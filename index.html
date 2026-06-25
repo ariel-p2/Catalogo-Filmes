@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Filmes</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Catálogo de Filmes</h1>
+
+        <input
+            type="text"
+            id="pesquisa"
+            placeholder="Pesquisar filme..."
+        >
+
+        <select id="filtroGenero">
+            <option value="todos">Todos os gêneros</option>
+            <option value="Ação">Ação</option>
+            <option value="Comédia">Comédia</option>
+            <option value="Ficção">Ficção</option>
+            <option value="Animação">Animação</option>
+        </select>
+    </header>
+
+    <main id="catalogo"></main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

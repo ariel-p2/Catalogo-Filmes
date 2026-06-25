@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#1b1b1b;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    padding:20px;
+    text-align:center;
+}
+
+h1{
+    margin-bottom:20px;
+}
+
+input,
+select{
+    padding:10px;
+    border:none;
+    border-radius:8px;
+    margin:5px;
+}
+
+#catalogo{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:20px;
+}
+
+.card{
+    background:#2b2b2b;
+    border-radius:15px;
+    overflow:hidden;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.03);
+}
+
+.card img{
+    width:100%;
+    height:350px;
+    object-fit:cover;
+}
+
+.info{
+    padding:15px;
+}
+
+.info h2{
+    margin-bottom:10px;
+}
+
+.info p{
+    margin-bottom:10px;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
