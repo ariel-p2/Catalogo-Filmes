@@ -40,5 +40,11 @@ Como o projeto foi construído puramente com tecnologias web estáticas, você n
 
 1. Faça o clone deste repositório:
    ```bash
-   git clone [https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git](https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git)
-  
+   git clone [https://github.com/ariel-p2/Catalogo-Filmes.git](https://github.com/ariel-p2/Catalogo-Filmes.git)
+
+2. Abra a pasta do projeto.
+Dê um duplo clique no arquivo index.html para abrir diretamente no seu navegador de preferência.
+3. Se estiver no celular usando o Acode, basta abrir a pasta do projeto no app e clicar no botão de "Play" (Visualizar no navegador) interno do editor.
+📄 Licença
+Este projeto está sob a licença MIT. Sinta-se livre para usar, modificar e distribuir.
+Como feedback, se quiser dar um upgrade no código futuramente, adicionar tratamento para imagens quebradas ou criar uma página separada apenas para ver os favoritos seriam ótimos próximos passos! 😉
